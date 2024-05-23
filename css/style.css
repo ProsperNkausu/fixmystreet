@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.932);
+}
+
+
+.span-1 {
+    background-color: rgba(255, 187, 0, 0.836);
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+}
+
+.span-tag a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.nav {
+    background-color: rgb(5, 5, 5);
+}
+
+.navbar {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.navitems {
+    display: flex;
+}
+
+.navlinks {
+    list-style: none;
+    padding: 10px;
+}
+
+.pac {
+    text-decoration: none;
+    color: white;
+}
+
+.pac:hover {
+    transition-duration: .2s;
+    color: rgba(255, 187, 0, 0.836);
+}
+
+
+.banner {
+    padding: 20px;
+}
+
+.content-1 {
+    margin-bottom: 20px;
+}
+
+
+.banner {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.content-container {
+    background-color: rgba(255, 187, 0, 0.836);
+
+    height: 300px;
+}
+
+.banner-content {
+    margin-top: 40px;
+}
+
+.para {
+    margin-bottom: 20px;
+}
+
+.main-content {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: -50px;
+    width: 70%;
+
+
+}
+
+.card-content {
+    background-color: white;
+    padding: 20px;
+    width: 80%;
+}
+
+.button-submit {
+    background-color: black;
+    width: 10%;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+}
+
+.button-submit:hover {
+    transition-duration: .2s;
+    text-align: center;
+    transform: scale(1.1);
+}
+
+.button-submit a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.cards {
+    display: flex;
+    margin-right: 15.5%;
+    margin-top: 20px;
+}
+
+.card-info {
+    background-color: rgba(255, 187, 0, 0.836);
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.card-info:hover {
+    transition-duration: .6s;
+    transform: scale(1.1);
+}
+
+.footer {
+
+    margin-top: 50px;
+
+
+}
+
+.footer hr {
+    padding: 2px;
+    border: none;
+    background-color: rgba(255, 187, 0, 0.836);
+}
+
+.inner-footer {
+    padding: 20px;
+    text-align: center;
+
+}
+
+.inner-footer .footer-info {
+    color: white;
+}
+
+.signin-form {
+
+    margin-top: 5%;
+    width: 100%;
+
+}
+
+.sign-input {
+    margin-top: 20px;
+    /* margin-left: 20px; */
+    margin-right: 20px;
+}
+
+
+.form input {
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.form select {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    /* margin-left: 10px; */
+    width: 100%;
+    border: none;
+}
+
+.form {
+
+    padding: 50px;
+    width: 19%;
+    border-radius: 50px 0;
+    background: radial-gradient(circle, rgba(224, 95, 95, 1) 0%,
+            rgba(244, 200, 0, 1) 100%);
+    margin-left: 36%;
+    margin-right: 35%;
+}
+
+form .btn {
+    width: 40%;
+    text-align: center;
+    align-content: center;
+    margin-left: 30%;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+form .btn:hover {
+    color: rgb(250, 183, 0);
+    transition-duration: .3s;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.356) 0%, rgb(240, 239, 238) 100%);
+}
+
+.underline {
+    background-color: black;
+    padding: 1px;
+    border: none;
+}
+
+/* all report css */

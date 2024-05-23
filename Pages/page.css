@@ -1,0 +1,235 @@
+ #alert {
+     background-color: rgba(67, 68, 68, 0.719);
+     color: rgba(255, 174, 0, 0.747);
+     width: 50%;
+     align-items: center;
+     text-align: center;
+     margin-top: 10%;
+     margin-left: 20%;
+     margin-right: 20%;
+     border-radius: 50px;
+     padding: 5px;
+ }
+
+ #aler {
+     background-color: rgba(67, 68, 68, 0.719);
+     color: rgba(255, 174, 0, 0.747);
+     width: 50%;
+     align-items: center;
+     text-align: center;
+     margin-top: 10%;
+     margin-left: 20%;
+     margin-right: 20%;
+     border-radius: 50px;
+     padding: 5px;
+ }
+
+ .infor_rec {
+     margin-top: 20px;
+
+     color: white;
+ }
+
+ .infor_rec a {
+     text-transform: uppercase;
+     color: rgba(165, 165, 165, 0.822);
+ }
+
+ .infor_rec a:hover {
+     color: rgba(255, 174, 0, 0.747);
+     cursor: pointer;
+
+ }
+
+ .title {
+     text-align: center;
+     color: white;
+     text-transform: capitalize;
+     margin-top: 5%;
+ }
+
+ .title hr {
+     width: 60px;
+     padding: 1px;
+     margin-top: 10px;
+     margin-left: 48.5%;
+     margin-right: 49%;
+     border-radius: 20px;
+     border: none;
+     background-color: rgba(255, 174, 0, 0.747);
+ }
+
+
+ .alert-content {
+     margin-top: 5%;
+     display: flex;
+     margin-left: 5%;
+     margin-right: 5%;
+ }
+
+ .card-1 {
+     background-color: rgb(71, 71, 71);
+     padding: 20px;
+     border-radius: 20px;
+     margin-bottom: 180px;
+ }
+
+ .card-1 .title {
+     color: black;
+     margin-top: -0.5%;
+     margin-bottom: 20px;
+ }
+
+ .card-2 {
+
+     margin-top: 10%;
+     background-color: rgba(255, 174, 0, 0.507);
+     border-radius: 20px;
+     padding: 20px;
+     margin-left: 50px;
+
+ }
+
+ .card-2 .title {
+     color: black;
+     margin-top: -0.5%;
+     margin-bottom: 20px;
+ }
+
+ .card-1:hover {
+     transition-duration: .6s;
+     transform: scale(1.1);
+ }
+
+ .card-2:hover {
+     transition-duration: .6s;
+     transform: scale(1.1);
+ }
+
+ .navlogo {
+     color: white;
+     text-decoration: none;
+ }
+
+ .dashboard {
+     max-width: 1200px;
+     margin: 20px auto;
+     padding: 20px;
+     background-color: white;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     border-radius: 8px;
+ }
+
+ .card-content {
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+ }
+
+ .card-info {
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+ }
+
+ .user-profile,
+ .user-input,
+ .user-reports {
+     padding: 20px;
+     border: 1px solid #ddd;
+     border-radius: 8px;
+ }
+
+ .user {
+     margin-top: 0;
+ }
+
+ label {
+     display: block;
+     margin-bottom: 8px;
+ }
+
+ input[type="password"] {
+     width: 100%;
+     padding: 8px;
+     margin-bottom: 10px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+ }
+
+ button {
+     padding: 10px 20px;
+     background-color: #333;
+     color: white;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+ }
+
+ button:hover {
+     background-color: #555;
+ }
+
+ table {
+     width: 100%;
+     border-collapse: collapse;
+     margin-top: 20px;
+ }
+
+ table,
+ th,
+ td {
+     border: 1px solid #ddd;
+ }
+
+ th,
+ td {
+     padding: 10px;
+     text-align: left;
+ }
+
+
+
+ th {
+     background-color: #f4f4f4;
+ }
+
+
+ .report-form {
+     max-width: 600px;
+     margin: 20px auto;
+     padding: 20px;
+     background-color: #fff;
+     border-radius: 5px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+
+ .report-form h2 {
+     margin-top: 0;
+ }
+
+ .report-form label {
+     display: block;
+     margin-bottom: 5px;
+ }
+
+ .report-form select,
+ .report-form input[type="text"],
+ .report-form input[type="file"],
+ .report-form button {
+     width: 100%;
+     padding: 10px;
+     margin-bottom: 10px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+ }
+
+ .report-form button {
+     background-color: #4CAF50;
+     color: white;
+     cursor: pointer;
+ }
+
+ .report-form button:hover {
+     background-color: #45a049;
+ }
